@@ -1,15 +1,7 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import PropertyGrid from "@/components/PropertyGrid";
+import SpotifyApp from "@/components/SpotifyApp";
 
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <Hero />
-      <PropertyGrid />
-    </div>
-  );
+  return <SpotifyApp />;
 };
 
 export default Index;
